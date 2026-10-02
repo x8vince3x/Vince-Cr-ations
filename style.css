@@ -118,3 +118,41 @@ body{background:var(--paper);color:var(--ink)}
 .contact-card .button-dark:hover{background:#5e7970}
 .site-footer{background:#f3f0e9;border-color:#dedbd2}
 .site-footer>span,.site-footer>a:not(.brand){color:#67736c}
+/* Hiérarchie plus affirmée, cartes chaleureuses et détails numériques discrets. */
+.site-header{box-shadow:0 5px 24px rgba(49,61,54,.045)}
+.nav-cta{border-radius:999px;padding:11px 19px}
+.button{border-radius:999px}
+.intro-band{min-height:104px;background:linear-gradient(105deg,#718b81,#87988a);padding-top:24px;padding-bottom:24px}
+.services{padding-top:110px;padding-bottom:112px;background-image:radial-gradient(ellipse at 90% 4%,rgba(126,151,135,.14),transparent 34%),linear-gradient(180deg,#f4f1ea 0%,#f0eee7 100%)}
+.section-heading{margin-bottom:42px}
+.section-heading h2,.work-copy h2,.process-inner h2{letter-spacing:-.06em}
+.service-grid{gap:17px;border:0}
+.service-card,.service-card+.service-card{min-height:320px;padding:27px 25px 29px;border:1px solid #e1ded4;border-radius:14px;background:rgba(251,249,244,.88);box-shadow:0 12px 34px rgba(55,67,59,.055);transition:transform .22s ease,box-shadow .22s ease}
+.service-card+.service-card{padding-left:25px}
+.service-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(55,67,59,.1)}
+.service-number{display:inline-block;padding:6px 9px;border-radius:999px;background:#edf0e8;color:#61766b;font-size:8px}
+.service-icon{width:52px;height:52px;margin:24px 0 18px;border-radius:14px;background:linear-gradient(145deg,#edf1e9,#e1eae4);box-shadow:inset 0 1px 0 rgba(255,255,255,.85)}
+.service-card h3{font-size:21px}
+.service-card p{min-height:66px}
+.service-card>a{display:inline-block;padding:7px 0;border-color:#cbd5cb}
+.work-section{background:radial-gradient(ellipse at 78% 20%,rgba(115,145,127,.2),transparent 36%),linear-gradient(125deg,#293b38,#314541);overflow:hidden}
+.work-inner{min-height:490px}
+.work-summary{border-radius:14px;box-shadow:0 18px 44px rgba(13,25,22,.18)}
+.work-summary>div{transition:padding .2s ease}
+.work-summary>div:hover{padding-left:6px}
+.pricing{background:linear-gradient(180deg,#f3f0e9 0%,#eeece4 100%)}
+.pricing-grid{gap:16px;border:0;overflow:visible}
+.price-card,.price-card+.price-card{min-height:420px;padding:30px 26px 28px;border:1px solid #dfdcd2;border-radius:14px;background:#faf8f3;box-shadow:0 12px 34px rgba(55,67,59,.055)}
+.price-card+.price-card{border-left:1px solid #dfdcd2}
+.price-featured{background:linear-gradient(155deg,#e8eee7,#f0f1e9);box-shadow:0 18px 42px rgba(62,85,72,.1)}
+.popular-tag{border-radius:0 13px 0 12px}
+.price-link{left:26px}
+.process-section{background:radial-gradient(ellipse at 12% 0%,rgba(255,255,255,.45),transparent 42%),#e9e5dc}
+.steps article{grid-template-columns:42px 1fr;gap:15px;margin:0 0 12px;padding:17px 19px;border:1px solid rgba(205,201,189,.75);border-radius:12px;background:rgba(250,248,243,.56);transition:background .2s ease,transform .2s ease}
+.steps article:hover{background:rgba(250,248,243,.92);transform:translateX(3px)}
+.steps article:last-child{border:1px solid rgba(205,201,189,.75);margin:0;padding:17px 19px}
+.contact-card{background:radial-gradient(ellipse at 85% 8%,rgba(122,149,131,.16),transparent 35%),linear-gradient(130deg,#e7ece5,#f0eee6);border-radius:16px;box-shadow:0 18px 45px rgba(57,72,62,.07)}
+.contact-decoration{color:rgba(87,119,105,.11)}
+.site-footer{border-top-color:#d8d5cc}
+@media(max-width:850px){.service-grid{gap:12px}.service-card,.service-card+.service-card{padding:23px 20px}.service-card+.service-card{padding-left:20px}.pricing-grid{gap:12px}.price-card,.price-card+.price-card{padding:25px 20px}.price-link{left:20px}}
+@media(max-width:650px){.services{padding-top:76px;padding-bottom:82px}.service-grid{gap:12px}.service-card,.service-card+.service-card{min-height:0;padding:22px 19px}.service-card+.service-card{padding-left:19px}.service-icon{margin:18px 0 13px}.service-card p{min-height:0}.pricing-grid{gap:12px}.price-card,.price-card+.price-card{min-height:385px;padding:25px 22px}.price-link{left:22px}.steps article,.steps article:last-child{padding:15px 14px}}
