@@ -9,7 +9,7 @@ body{background:#fbfcfe;color:#172235}
 .site-header{background:rgba(251,252,254,.96);border-color:#e4eaf1}
 .brand-mark{border-radius:7px;background:#edf3ff;border-color:#c9d9f6}
 .brand i,.brand,.navigation,.button,.service-card h3,.price-card h3,.steps h3,.intro-band p{font-family:var(--display)}
-.hero{width:100%;margin:0;min-height:620px;padding:70px max(7.2%,calc((100% - 1120px)/2)) 90px;background-color:#111c2e;background-image:linear-gradient(90deg,rgba(17,28,46,.94) 0%,rgba(17,28,46,.86) 50%,rgba(17,28,46,.68) 100%),url("https://images.unsplash.com/photo-1751200065687-a126e7c304da?auto=format&fit=crop&w=2400&q=80");background-position:center;background-size:cover;color:#f7f9fc;grid-template-columns:1fr 1fr;gap:8%;}
+.hero{width:100%;margin:0;min-height:620px;padding:70px max(7.2%,calc((100% - 1120px)/2)) 90px;background-color:#111c2e;background-image:linear-gradient(90deg,rgba(17,28,46,.94) 0%,rgba(17,28,46,.86) 50%,rgba(17,28,46,.68) 100%),url("https://images.unsplash.com/photo-1535957998253-26ae1ef29506?auto=format&fit=crop&fm=jpg&q=80&w=2400");background-position:center,center 55%;background-size:cover,cover;color:#f7f9fc;grid-template-columns:1fr 1fr;gap:8%;}
 .hero h1{max-width:540px;color:#fff;font-size:clamp(48px,5.2vw,70px)}
 .hero h1 em{color:#79aaff}
 .hero .eyebrow,.hero .hero-note{color:#aab9ce}
