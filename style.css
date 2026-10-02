@@ -46,3 +46,75 @@ body{background:#fbfcfe;color:#172235}
 /* Photo de fond dégagée et panneau de verre pour laisser l’image visible. */
 .hero-panel{background:transparent;border-color:rgba(255,255,255,.58);box-shadow:none;backdrop-filter:none}
 .hero h1,.hero-lead,.hero-note,.hero .eyebrow,.hero-index{text-shadow:0 2px 14px rgba(0,0,0,.48)}
+/* Direction artistique cocooning et numérique : ivoire, sauge et bleu pétrole doux. */
+:root{--ink:#293532;--muted:#697670;--paper:#f3f0e9;--cream:#e9e5dc;--accent:#6e8980;--accent-light:#dce6df;--line:#dedbd2}
+body{background:var(--paper);color:var(--ink)}
+.site-header{background:rgba(243,240,233,.94);border-color:rgba(51,66,60,.12)}
+.brand-mark{background:#e7ede7;border-color:#9cafa4;color:#55776e}
+.navigation>a:not(.nav-cta){color:#5c6963}
+.nav-cta{border-color:#b9c2bb;color:#3d5049}
+.nav-cta:hover{background:#e6ece6;color:#486f68}
+.hero{background-color:#263936;color:#f7f5ee}
+.hero .eyebrow,.hero .hero-note{color:#e1e4d9}
+.hero h1 em{color:#c3d8ce}
+.hero-lead{color:#f0eee6}
+.hero .button-dark{background:#6f8980;color:#fff}
+.hero .button-dark:hover{background:#5f7971}
+.hero .text-link{border-color:rgba(246,244,235,.52);color:#fff}
+.hero .text-link span,.hero .note-star{color:#d3e2d8}
+.hero-panel{border-color:rgba(248,246,237,.58)}
+.panel-kicker{color:#e1e5da}
+.panel-rule,.panel-feature{border-color:rgba(238,241,232,.2)}
+.panel-feature b{color:#fbfaf5}
+.panel-feature small{color:#e0e4dc}
+.feature-index{color:#c2d0c7}
+.feature-check{background:rgba(203,222,211,.18);color:#d5e6dc}
+.panel-footer{color:#e0e5db}
+.panel-mark{background:#6e8980}
+.panel-arrow{color:#d1e0d7}
+.hero-index{color:#e5e4da}
+.intro-band{background:#788f85;color:#f8f5ed}
+.intro-band p{color:#fffaf1}
+.intro-band span{color:#e9eee7}
+.services{background:#f4f1ea;background-image:radial-gradient(circle at 88% 8%,rgba(118,145,131,.1),transparent 30%)}
+.eyebrow{color:#6b7971}
+.section-heading>p{color:#6f7871}
+.service-number{color:#7c837a}
+.service-icon{border-color:#d1ddd5;color:#5e8076;background:#e9efe9}
+.service-card h3,.price-card h3,.steps h3{color:#293532}
+.service-card p{color:#68736d}
+.service-card>a span,.service-card>a:hover,.price-link span{color:#607f75}
+.work-section{background:#293b38;color:#f6f4ed}
+.work-copy .eyebrow{color:#c0cec4}
+.work-copy h2 em{color:#c6ddd1}
+.work-copy>p:not(.eyebrow){color:#d1dad2}
+.work-copy li{color:#e7e9e1}
+.work-copy li span{color:#c3dacd}
+.work-summary{background:#344844;border-color:#52635c}
+.summary-label{color:#c2d0c7}
+.work-summary>div{border-color:rgba(231,237,228,.16)}
+.work-summary>div span{color:#c3d8ce}
+.work-summary>div b{color:#f6f4ed}
+.summary-foot{color:#c7d1c9}
+.pricing{background:#f3f0e9}
+.pricing-grid{border-color:#ddd8ce}
+.price-card{background:#faf8f3}
+.price-card+.price-card{border-color:#e2ded5}
+.price-featured{background:#e7eee8}
+.price-label{color:#7b8178}
+.price-desc,.price-card li{color:#66716b}
+.price-card li:before{color:#67877b}
+.popular-tag{background:#718a81}
+.price strong{color:#293532}
+.process-section{background:#e9e5dc}
+.steps article{border-color:#d8d3c8}
+.steps article>span{color:#638277}
+.steps p{color:#68736d}
+.contact-card{background:#e7ece5;border-color:#d7ded5}
+.contact-card>p:not(.eyebrow),.contact-email{color:#626f68}
+.contact-card h2 em{color:#5d8076}
+.contact-decoration{color:rgba(91,125,112,.09)}
+.contact-card .button-dark{background:#6e8980}
+.contact-card .button-dark:hover{background:#5e7970}
+.site-footer{background:#f3f0e9;border-color:#dedbd2}
+.site-footer>span,.site-footer>a:not(.brand){color:#67736c}
