@@ -156,3 +156,9 @@ body{background:var(--paper);color:var(--ink)}
 .site-footer{border-top-color:#d8d5cc}
 @media(max-width:850px){.service-grid{gap:12px}.service-card,.service-card+.service-card{padding:23px 20px}.service-card+.service-card{padding-left:20px}.pricing-grid{gap:12px}.price-card,.price-card+.price-card{padding:25px 20px}.price-link{left:20px}}
 @media(max-width:650px){.services{padding-top:76px;padding-bottom:82px}.service-grid{gap:12px}.service-card,.service-card+.service-card{min-height:0;padding:22px 19px}.service-card+.service-card{padding-left:19px}.service-icon{margin:18px 0 13px}.service-card p{min-height:0}.pricing-grid{gap:12px}.price-card,.price-card+.price-card{min-height:385px;padding:25px 22px}.price-link{left:22px}.steps article,.steps article:last-child{padding:15px 14px}}
+/* Accent interactif discret sur la bannière. */
+.hero{isolation:isolate;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse 420px 340px at var(--pointer-x,72%) var(--pointer-y,42%),rgba(210,231,216,.25),transparent 74%);transition:background-position .12s ease}
+.hero-copy,.hero-visual{position:relative;z-index:1}
+.hero-index,.scroll-cue{z-index:1}
+@media(prefers-reduced-motion:reduce){.hero::before{transition:none}}
