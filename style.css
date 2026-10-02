@@ -9,7 +9,7 @@ body{background:#fbfcfe;color:#172235}
 .site-header{background:rgba(251,252,254,.96);border-color:#e4eaf1}
 .brand-mark{border-radius:7px;background:#edf3ff;border-color:#c9d9f6}
 .brand i,.brand,.navigation,.button,.service-card h3,.price-card h3,.steps h3,.intro-band p{font-family:var(--display)}
-.hero{width:100%;margin:0;min-height:620px;padding:70px max(7.2%,calc((100% - 1120px)/2)) 90px;background-color:#111c2e;background-image:linear-gradient(90deg,rgba(17,28,46,.94) 0%,rgba(17,28,46,.86) 50%,rgba(17,28,46,.68) 100%),url("https://images.unsplash.com/photo-1535957998253-26ae1ef29506?auto=format&fit=crop&fm=jpg&q=80&w=2400");background-position:center,center 55%;background-size:cover,cover;color:#f7f9fc;grid-template-columns:1fr 1fr;gap:8%;}
+.hero{width:100%;margin:0;min-height:620px;padding:70px max(7.2%,calc((100% - 1120px)/2)) 90px;background-color:#111c2e;background-image:url("https://images.unsplash.com/photo-1535957998253-26ae1ef29506?auto=format&fit=crop&fm=jpg&q=80&w=2400");background-position:center 55%;background-size:cover;color:#f7f9fc;grid-template-columns:1fr 1fr;gap:8%;}
 .hero h1{max-width:540px;color:#fff;font-size:clamp(48px,5.2vw,70px)}
 .hero h1 em{color:#79aaff}
 .hero .eyebrow,.hero .hero-note{color:#aab9ce}
@@ -42,3 +42,7 @@ body{background:#fbfcfe;color:#172235}
 .site-footer{background:#fbfcfe}.footer-brand .brand-mark{border-radius:6px}
 @media(max-width:850px){.hero{padding-left:5%;padding-right:5%;gap:5%}.hero-index{right:5%}.scroll-cue{left:5%}.intro-band{padding-left:5%;padding-right:5%}.work-inner{width:90%}}
 @media(max-width:650px){.hero{padding:57px 5% 64px;min-height:0;gap:18px}.hero h1{font-size:49px}.hero-visual{min-height:0;margin:8px 0 10px}.hero-panel{padding:22px 19px 17px}.panel-feature{min-height:69px}.feature-index{margin-top:22px}.hero-index{right:5%;bottom:21px;font-size:6px}.scroll-cue{display:none}.intro-band{padding:19px 5%;gap:4px}.intro-band p{font-size:15px}.intro-band span{font-size:7px}.section-pad{padding-top:72px;padding-bottom:76px}.work-inner{width:90%;min-height:0;grid-template-columns:1fr;padding-top:67px;padding-bottom:67px;gap:24px}.work-summary{padding:22px 19px}.work-summary>div{padding:13px 0}.process-section{padding:70px 0}.contact-section{padding-top:65px;padding-bottom:65px}}
+
+/* Photo de fond dégagée et panneau de verre pour laisser l’image visible. */
+.hero-panel{background:rgba(23,38,59,.28);border-color:rgba(218,231,248,.52);backdrop-filter:blur(7px)}
+.hero h1,.hero-lead,.hero-note,.hero .eyebrow,.hero-index{text-shadow:0 2px 14px rgba(0,0,0,.48)}
